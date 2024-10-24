@@ -33,7 +33,6 @@ class Sedan(Vehicle):
     __COLOR_VARIANTS = 5 # в седан может поместиться только 5 пассажиров
 
 
-# Текущие цвета __COLOR_VARIANTS = ['blue', 'red', 'green', 'black', 'white']
 vehicle1 = Sedan('Fedos', 'Toyota Mark II', 500, 'blue')
 
 vehicle1.print_info()
